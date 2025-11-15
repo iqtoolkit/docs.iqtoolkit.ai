@@ -1,0 +1,33 @@
+{
+  "name": "docs.iqtoolkit.ai",
+  "version": "1.0.0",
+  "description": "Comprehensive documentation hub for the IQToolkit open-source ecosystem",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "bash scripts/sync-docs.sh && vitepress dev docs",
+    "docs:build": "bash scripts/sync-docs.sh && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:serve": "vitepress serve docs",
+    "sync-docs": "bash scripts/sync-docs.sh",
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build"
+  },
+  "keywords": [
+    "documentation",
+    "iqtoolkit",
+    "vitepress",
+    "vue"
+  ],
+  "author": "iqtoolkit",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31",
+    "vue": "^3.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iqtoolkit/docs.iqtoolkit.ai.git"
+  },
+  "homepage": "https://docs.iqtoolkit.ai"
+}
