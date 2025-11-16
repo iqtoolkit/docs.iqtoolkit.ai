@@ -29,4 +29,4 @@ For a full list, see the [Project README](../README.md#key-features).
 - See [README](../README.md#docker-usage) for details
 
 ## Roadmap & Future Features
-- See [ROADMAP.md](../ROADMAP.md)
+- See [ROADMAP.md](https://github.com/iqtoolkit/slow-query-doctor/blob/main/ROADMAP.md)

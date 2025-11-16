@@ -1,7 +1,7 @@
 # [← Back to Index](index.md)
 # ❓ FAQ
 
-For more, see the [Project README](../README.md) and [ROADMAP.md](../ROADMAP.md).
+For more, see the [Project README](https://github.com/iqtoolkit/slow-query-doctor) and [ROADMAP.md](https://github.com/iqtoolkit/slow-query-doctor/blob/main/ROADMAP.md).
 
 ## Common Questions
 
@@ -12,10 +12,10 @@ A: See [Configuration](configuration.md#postgresql-setup) for setup instructions
 A: To avoid being ignored by `.gitignore` rules for `.log` files.
 
 ### Q: How do I contribute?
-A: See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
+A: See [CONTRIBUTING.md](https://github.com/iqtoolkit/slow-query-doctor/blob/main/CONTRIBUTING.md) for guidelines.
 
 ### Q: Where can I see upcoming features?
-A: See [ROADMAP.md](../ROADMAP.md).
+A: See [ROADMAP.md](https://github.com/iqtoolkit/slow-query-doctor/blob/main/ROADMAP.md).
 
 ### Q: How do I report a bug or request a feature?
 A: Open an issue on GitHub or email gio@gmartinez.net.

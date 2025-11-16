@@ -47,7 +47,20 @@ for repo_config in "${REPOS[@]}"; do
     cp -r "$clone_dir/$source_path/"* "docs/tools/$dest_path/" 2>/dev/null || echo "  ⚠ No docs found in $source_path"
     
     # Process markdown files to fix relative links if needed
-    find "docs/tools/$dest_path" -name "*.md" -type f -exec sed -i.bak 's|](docs/|](|g' {} \; 2>/dev/null || true
+    find "docs/tools/$dest_path" -name "*.md" -type f -exec sed -i.bak \
+      -e 's|](docs/|](|g' \
+      -e 's|](\.\./README\.md)|](https://github.com/'$repo')|g' \
+      -e 's|](\.\./README)|](https://github.com/'$repo')|g' \
+      -e 's|](\.\./ROADMAP\.md)|](https://github.com/'$repo'/blob/main/ROADMAP.md)|g' \
+      -e 's|](\.\./ROADMAP)|](https://github.com/'$repo'/blob/main/ROADMAP.md)|g' \
+      -e 's|](\.\./CONTRIBUTING\.md)|](https://github.com/'$repo'/blob/main/CONTRIBUTING.md)|g' \
+      -e 's|](\.\./CONTRIBUTING)|](https://github.com/'$repo'/blob/main/CONTRIBUTING.md)|g' \
+      -e 's|](\.\./CODE_OF_CONDUCT\.md)|](https://github.com/'$repo'/blob/main/CODE_OF_CONDUCT.md)|g' \
+      -e 's|](\.\./CODE_OF_CONDUCT)|](https://github.com/'$repo'/blob/main/CODE_OF_CONDUCT.md)|g' \
+      -e 's|](\.\./TECHNICAL_DEBT\.md)|](https://github.com/'$repo'/blob/main/TECHNICAL_DEBT.md)|g' \
+      -e 's|](\.\./TECHNICAL_DEBT)|](https://github.com/'$repo'/blob/main/TECHNICAL_DEBT.md)|g' \
+      -e 's|](\.\./examples)|](https://github.com/'$repo'/tree/main/examples)|g' \
+      {} \; 2>/dev/null || true
     find "docs/tools/$dest_path" -name "*.bak" -delete 2>/dev/null || true
     
     # Create a metadata file for tracking

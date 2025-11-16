@@ -3,7 +3,7 @@
 
 Welcome to Slow Query Doctor!
 
-For a quick overview, see the [Project README](../README.md).
+For a quick overview, see the [Project README](https://github.com/iqtoolkit/slow-query-doctor).
 
 ## Installation
 

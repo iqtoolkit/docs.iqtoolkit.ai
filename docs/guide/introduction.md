@@ -77,7 +77,7 @@ Ready to get started? Here are some recommended next steps:
 
 1. **[Quick Start Guide](/guide/getting-started)**: Get IQToolkit running in minutes
 2. **[Installation](/guide/installation)**: Detailed installation instructions
-3. **[Core Concepts](/guide/architecture)**: Understand the fundamental concepts
-4. **[Examples](/examples/)**: See IQToolkit in action with real examples
+3. **[Browse Tools](/tools/)**: Explore available tools and their examples
+4. **[Contributing](/guide/contributing)**: Help build the ecosystem
 
 Let's build something amazing together! 🚀

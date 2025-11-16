@@ -15,11 +15,11 @@
 
 ## Quick Links
 
-- [Project README](../README.md)
-- [Roadmap](../ROADMAP.md)
-- [Technical Debt](../TECHNICAL_DEBT.md)
-- [Contributing Guide](../CONTRIBUTING.md) 🚀
-- [Code of Conduct](../CODE_OF_CONDUCT.md)
+- [Project README](https://github.com/iqtoolkit/slow-query-doctor)
+- [Roadmap](https://github.com/iqtoolkit/slow-query-doctor/blob/main/ROADMAP.md)
+- [Technical Debt](https://github.com/iqtoolkit/slow-query-doctor/blob/main/TECHNICAL_DEBT.md)
+- [Contributing Guide](https://github.com/iqtoolkit/slow-query-doctor/blob/main/CONTRIBUTING.md) 🚀
+- [Code of Conduct](https://github.com/iqtoolkit/slow-query-doctor/blob/main/CODE_OF_CONDUCT.md)
  - [Release Process & Versioning](release-process.md)
 
 ---

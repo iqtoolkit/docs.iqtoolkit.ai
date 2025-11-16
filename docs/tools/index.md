@@ -8,7 +8,7 @@ Welcome to the IQToolkit tools documentation. This section contains documentatio
 
 ## Contributing Tools
 
-If you're building a tool for the IQToolkit ecosystem, please follow our [contributing guidelines](/contributing) to have it included in this documentation.
+If you're building a tool for the IQToolkit ecosystem, please follow our [contributing guidelines](/guide/contributing) to have it included in this documentation.
 
 ### Adding Your Tool's Documentation
 
@@ -18,7 +18,7 @@ If you're building a tool for the IQToolkit ecosystem, please follow our [contri
 
 ## Tool Development Guidelines
 
-- Follow our [API standards](/api/overview)
 - Include comprehensive documentation in your `/docs` folder
 - Use consistent naming and structure
 - Provide examples and usage instructions
+- Follow the patterns established by existing tools
